@@ -7,7 +7,7 @@ on:
       - 'instrumentation/nginx/**'
       - '.github/workflows/nginx.yml'
   pull_request:
-    branches: [ main ]
+    branches: [ nginx-contrib ]
     paths:
       - 'instrumentation/nginx/**'
       - '.github/workflows/nginx.yml'
